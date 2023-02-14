@@ -261,11 +261,20 @@ header div:last-child span {
     width: 100%;
   }
 
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   header h1 {
     font-size: 2rem;
   }
 
   header div:first-child {
     border: none;
+  }
+
+  header div:last-child {
+    gap: 1rem;
   }
 }
